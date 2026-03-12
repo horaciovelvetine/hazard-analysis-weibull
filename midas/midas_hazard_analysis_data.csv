@@ -1,0 +1,501 @@
+Work Order #,Installation,Facility Type Key,System Type Key,Trade,Age,Condition Index,Mission Criticality,Resiliency Grade,Remaining Service Life,Request DateTime,Work Category,Priority Code,Status
+USSPC-FAC-2026-0001,Schriever SFB,100,60,ESS,21,54.83,5,4,12,2026-02-21 0300Z,Urgent,2,In Progress
+USSPC-FAC-2026-0002,Vandenberg SFB,200,70,Power Production,29,12.33,1,2,3,2026-01-29 2200Z,Emergency,1,Approved
+USSPC-FAC-2026-0003,Peterson SFB,200,40,Fire Protection,14,67.71,2,3,17,2026-02-23 0700Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0004,Buckley SFB,700,30,Plumbing,18,80.56,5,4,7,2026-01-04 2100Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0005,Peterson SFB,100,40,Fire Protection,9,70.08,1,1,25,2026-02-25 0200Z,Routine,3,Approved
+USSPC-FAC-2026-0006,Buckley SFB,200,50,Structural,25,40.99,4,2,2,2026-01-18 2100Z,Urgent,2,In Progress
+USSPC-FAC-2026-0007,Vandenberg SFB,200,70,Power Production,21,71.06,5,4,13,2026-01-25 0500Z,Routine,4,Completed
+USSPC-FAC-2026-0008,Peterson SFB,100,80,Lighting,10,76.51,2,3,24,2026-02-12 2100Z,Routine,4,Approved
+USSPC-FAC-2026-0009,Peterson SFB,200,80,Lighting,22,44.78,1,4,6,2026-02-24 1100Z,Urgent,2,Approved
+USSPC-FAC-2026-0010,Peterson SFB,100,50,Structural,21,45.44,5,3,4,2026-01-31 0000Z,Urgent,2,Approved
+USSPC-FAC-2026-0011,Schriever SFB,700,80,Lighting,20,54.63,3,2,14,2026-01-01 0800Z,Urgent,2,In Progress
+USSPC-FAC-2026-0012,Vandenberg SFB,700,80,Lighting,7,86.3,5,1,22,2026-02-20 1600Z,Routine,3,In Progress
+USSPC-FAC-2026-0013,Peterson SFB,700,80,Lighting,9,64.15,3,4,26,2026-01-29 1400Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0014,Peterson SFB,200,30,Plumbing,20,34.71,1,4,11,2026-02-23 0500Z,Urgent,2,Completed
+USSPC-FAC-2026-0015,Buckley SFB,700,20,Electrical,5,100.0,4,1,20,2026-02-24 0800Z,Routine,3,In Progress
+USSPC-FAC-2026-0016,Peterson SFB,100,50,Structural,28,27.35,2,4,1,2026-01-16 2200Z,Emergency,1,Completed
+USSPC-FAC-2026-0017,Schriever SFB,700,70,Power Production,13,51.14,4,4,18,2026-02-15 0900Z,Urgent,2,In Progress
+USSPC-FAC-2026-0018,Vandenberg SFB,700,60,ESS,22,52.5,5,2,6,2026-02-22 0100Z,Urgent,2,Approved
+USSPC-FAC-2026-0019,Peterson SFB,700,50,Structural,5,86.23,3,4,21,2026-02-01 1900Z,Routine,4,Approved
+USSPC-FAC-2026-0020,Vandenberg SFB,700,40,Fire Protection,2,98.04,1,3,25,2026-02-01 0800Z,Preventive Maintenance,3,Approved
+USSPC-FAC-2026-0021,Peterson SFB,700,50,Structural,24,35.14,4,4,1,2026-02-13 1300Z,Urgent,2,Approved
+USSPC-FAC-2026-0022,Schriever SFB,200,20,Electrical,5,97.12,4,2,22,2026-03-02 1800Z,Routine,3,In Progress
+USSPC-FAC-2026-0023,Peterson SFB,700,30,Plumbing,8,70.19,3,2,21,2026-02-28 1900Z,Routine,3,In Progress
+USSPC-FAC-2026-0024,Buckley SFB,200,20,Electrical,2,70.1,1,3,25,2026-02-17 2200Z,Routine,4,In Progress
+USSPC-FAC-2026-0025,Schriever SFB,200,30,Plumbing,23,35.96,5,3,5,2026-01-02 2000Z,Urgent,2,Completed
+USSPC-FAC-2026-0026,Peterson SFB,200,50,Structural,15,57.65,1,4,18,2026-02-13 0100Z,Urgent,2,Completed
+USSPC-FAC-2026-0027,Peterson SFB,200,50,Structural,19,62.07,5,2,7,2026-02-17 0100Z,Routine,3,In Progress
+USSPC-FAC-2026-0028,Schriever SFB,200,80,Lighting,16,65.36,2,4,16,2026-02-04 1500Z,Routine,3,In Progress
+USSPC-FAC-2026-0029,Schriever SFB,700,80,Lighting,8,57.68,3,2,21,2026-02-26 1000Z,Urgent,2,Approved
+USSPC-FAC-2026-0030,Schriever SFB,200,60,ESS,27,32.01,4,3,0,2026-02-20 0100Z,Urgent,2,In Progress
+USSPC-FAC-2026-0031,Peterson SFB,200,50,Structural,13,62.46,1,3,15,2026-01-28 0800Z,Routine,4,In Progress
+USSPC-FAC-2026-0032,Buckley SFB,700,80,Lighting,30,18.16,4,4,0,2026-01-24 1700Z,Emergency,1,In Progress
+USSPC-FAC-2026-0033,Schriever SFB,200,20,Electrical,5,82.73,1,2,30,2026-01-31 0400Z,Routine,4,Approved
+USSPC-FAC-2026-0034,Schriever SFB,100,30,Plumbing,19,51.48,1,4,7,2026-01-07 1700Z,Urgent,2,Approved
+USSPC-FAC-2026-0035,Schriever SFB,100,10,HVAC,1,100.0,5,4,25,2026-01-23 1800Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0036,Buckley SFB,100,60,ESS,20,49.74,4,2,11,2026-01-28 2200Z,Urgent,2,Completed
+USSPC-FAC-2026-0037,Peterson SFB,200,50,Structural,22,62.74,1,4,4,2026-01-24 1100Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0038,Peterson SFB,700,20,Electrical,15,49.84,1,4,17,2026-01-24 2000Z,Urgent,2,Approved
+USSPC-FAC-2026-0039,Vandenberg SFB,200,40,Fire Protection,29,9.43,3,4,3,2026-01-18 2200Z,Emergency,1,Completed
+USSPC-FAC-2026-0040,Buckley SFB,700,80,Lighting,8,79.43,4,3,27,2026-01-27 1300Z,Routine,3,Approved
+USSPC-FAC-2026-0041,Peterson SFB,700,60,ESS,28,29.31,5,2,7,2026-02-06 0300Z,Emergency,1,Approved
+USSPC-FAC-2026-0042,Vandenberg SFB,700,30,Plumbing,27,27.04,2,1,3,2026-02-20 2100Z,Emergency,1,In Progress
+USSPC-FAC-2026-0043,Buckley SFB,200,20,Electrical,8,86.82,4,2,18,2026-02-26 2200Z,Routine,3,Completed
+USSPC-FAC-2026-0044,Peterson SFB,100,60,ESS,25,55.69,5,2,7,2026-02-10 0000Z,Urgent,2,In Progress
+USSPC-FAC-2026-0045,Schriever SFB,700,80,Lighting,5,89.51,2,1,27,2026-02-05 1200Z,Preventive Maintenance,4,In Progress
+USSPC-FAC-2026-0046,Buckley SFB,700,50,Structural,8,75.09,3,3,25,2026-02-28 1400Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0047,Schriever SFB,100,60,ESS,13,95.42,4,2,15,2026-02-03 0800Z,Routine,4,In Progress
+USSPC-FAC-2026-0048,Vandenberg SFB,100,60,ESS,16,72.62,2,4,18,2026-02-05 1200Z,Preventive Maintenance,4,In Progress
+USSPC-FAC-2026-0049,Buckley SFB,200,10,HVAC,17,49.16,3,2,16,2026-01-25 0000Z,Urgent,2,Approved
+USSPC-FAC-2026-0050,Schriever SFB,100,40,Fire Protection,12,68.57,4,2,23,2026-01-03 1800Z,Routine,3,Approved
+USSPC-FAC-2026-0051,Vandenberg SFB,700,10,HVAC,9,66.28,4,3,24,2026-01-14 0300Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0052,Vandenberg SFB,100,70,Power Production,14,74.37,4,4,12,2026-02-16 0100Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0053,Schriever SFB,700,80,Lighting,2,84.96,4,4,28,2026-02-22 0100Z,Routine,4,In Progress
+USSPC-FAC-2026-0054,Buckley SFB,100,80,Lighting,11,77.69,5,3,23,2026-03-02 1300Z,Routine,3,Completed
+USSPC-FAC-2026-0055,Peterson SFB,200,60,ESS,4,75.23,2,3,26,2026-01-21 0700Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0056,Buckley SFB,700,50,Structural,26,33.73,2,2,5,2026-01-04 1700Z,Urgent,2,Approved
+USSPC-FAC-2026-0057,Vandenberg SFB,700,60,ESS,7,88.52,1,3,18,2026-01-15 0000Z,Routine,3,Approved
+USSPC-FAC-2026-0058,Vandenberg SFB,200,30,Plumbing,20,50.95,5,4,12,2026-02-05 0100Z,Urgent,2,Approved
+USSPC-FAC-2026-0059,Schriever SFB,200,10,HVAC,23,33.71,5,1,8,2026-01-30 1100Z,Urgent,2,In Progress
+USSPC-FAC-2026-0060,Peterson SFB,700,10,HVAC,1,93.88,2,3,30,2026-01-07 0100Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0061,Vandenberg SFB,700,30,Plumbing,24,40.58,1,4,9,2026-02-22 0400Z,Urgent,2,Approved
+USSPC-FAC-2026-0062,Buckley SFB,200,60,ESS,1,99.71,4,2,24,2026-02-11 1900Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0063,Peterson SFB,100,60,ESS,3,85.68,1,4,25,2026-01-11 1500Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0064,Peterson SFB,200,40,Fire Protection,24,27.56,3,1,7,2026-01-25 1500Z,Emergency,1,Completed
+USSPC-FAC-2026-0065,Buckley SFB,100,70,Power Production,19,59.45,4,3,16,2026-02-28 1100Z,Urgent,2,In Progress
+USSPC-FAC-2026-0066,Schriever SFB,100,10,HVAC,16,51.58,1,2,10,2026-02-17 1300Z,Urgent,2,Approved
+USSPC-FAC-2026-0067,Schriever SFB,100,10,HVAC,10,61.16,4,4,21,2026-02-19 1500Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0068,Buckley SFB,100,30,Plumbing,8,70.27,1,2,21,2026-02-17 1300Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0069,Buckley SFB,100,30,Plumbing,23,46.1,1,4,7,2026-01-20 1300Z,Urgent,2,In Progress
+USSPC-FAC-2026-0070,Schriever SFB,700,50,Structural,23,38.84,1,4,5,2026-02-11 1400Z,Urgent,2,Approved
+USSPC-FAC-2026-0071,Vandenberg SFB,700,10,HVAC,9,61.84,4,1,23,2026-02-06 1600Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0072,Schriever SFB,100,70,Power Production,17,56.5,3,3,8,2026-02-01 0000Z,Urgent,2,Approved
+USSPC-FAC-2026-0073,Buckley SFB,700,70,Power Production,29,44.55,2,3,2,2026-01-31 1100Z,Urgent,2,Approved
+USSPC-FAC-2026-0074,Peterson SFB,700,60,ESS,29,37.97,5,1,5,2026-01-13 2200Z,Urgent,2,In Progress
+USSPC-FAC-2026-0075,Schriever SFB,200,30,Plumbing,8,80.03,5,1,19,2026-02-23 2200Z,Routine,3,Completed
+USSPC-FAC-2026-0076,Peterson SFB,200,60,ESS,8,67.96,4,1,18,2026-01-04 1300Z,Routine,4,Completed
+USSPC-FAC-2026-0077,Vandenberg SFB,700,40,Fire Protection,19,47.27,1,1,15,2026-01-14 1100Z,Urgent,2,Approved
+USSPC-FAC-2026-0078,Buckley SFB,100,30,Plumbing,1,92.52,5,3,33,2026-01-21 0700Z,Routine,3,Approved
+USSPC-FAC-2026-0079,Peterson SFB,700,10,HVAC,13,64.72,1,4,21,2026-01-05 2300Z,Routine,4,Completed
+USSPC-FAC-2026-0080,Schriever SFB,200,20,Electrical,9,65.68,5,3,21,2026-01-19 0300Z,Routine,3,Approved
+USSPC-FAC-2026-0081,Buckley SFB,700,10,HVAC,24,40.1,1,4,9,2026-02-24 1900Z,Urgent,2,In Progress
+USSPC-FAC-2026-0082,Peterson SFB,700,70,Power Production,22,63.6,1,2,6,2026-01-22 1300Z,Routine,3,Completed
+USSPC-FAC-2026-0083,Vandenberg SFB,200,10,HVAC,13,71.62,3,2,15,2026-01-19 0800Z,Routine,4,Approved
+USSPC-FAC-2026-0084,Peterson SFB,700,70,Power Production,16,82.25,5,1,13,2026-01-09 1400Z,Routine,4,In Progress
+USSPC-FAC-2026-0085,Peterson SFB,100,30,Plumbing,8,92.91,5,3,23,2026-01-21 0900Z,Preventive Maintenance,4,In Progress
+USSPC-FAC-2026-0086,Schriever SFB,700,30,Plumbing,15,87.65,1,3,19,2026-01-04 1800Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0087,Schriever SFB,700,70,Power Production,28,21.22,3,1,7,2026-01-31 0500Z,Emergency,1,In Progress
+USSPC-FAC-2026-0088,Vandenberg SFB,700,70,Power Production,3,100.0,2,2,32,2026-01-06 1000Z,Routine,3,In Progress
+USSPC-FAC-2026-0089,Schriever SFB,100,20,Electrical,5,93.8,3,1,25,2026-02-07 0200Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0090,Vandenberg SFB,100,80,Lighting,10,77.37,4,1,15,2026-03-01 1300Z,Routine,4,Approved
+USSPC-FAC-2026-0091,Buckley SFB,100,50,Structural,27,26.48,5,2,7,2026-01-01 1300Z,Emergency,1,Approved
+USSPC-FAC-2026-0092,Schriever SFB,700,30,Plumbing,8,100.0,5,3,19,2026-02-12 1400Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0093,Buckley SFB,200,80,Lighting,22,33.13,2,3,10,2026-01-13 1300Z,Urgent,2,In Progress
+USSPC-FAC-2026-0094,Buckley SFB,700,30,Plumbing,2,84.96,1,1,28,2026-01-14 0100Z,Routine,3,Completed
+USSPC-FAC-2026-0095,Schriever SFB,100,20,Electrical,5,76.59,1,1,21,2026-02-09 1400Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0096,Vandenberg SFB,700,80,Lighting,11,67.49,3,3,16,2026-01-16 1600Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0097,Schriever SFB,200,60,ESS,9,72.85,2,1,24,2026-02-18 0100Z,Routine,3,Approved
+USSPC-FAC-2026-0098,Schriever SFB,100,30,Plumbing,18,49.8,1,1,15,2026-02-11 0100Z,Urgent,2,Approved
+USSPC-FAC-2026-0099,Vandenberg SFB,200,60,ESS,16,56.89,5,2,15,2026-01-23 0400Z,Urgent,2,In Progress
+USSPC-FAC-2026-0100,Peterson SFB,700,60,ESS,21,42.73,2,2,14,2026-01-08 0100Z,Urgent,2,In Progress
+USSPC-FAC-2026-0101,Peterson SFB,700,40,Fire Protection,7,85.45,2,4,19,2026-02-01 0700Z,Routine,4,Approved
+USSPC-FAC-2026-0102,Schriever SFB,200,40,Fire Protection,17,75.46,3,1,10,2026-01-16 0900Z,Routine,3,Completed
+USSPC-FAC-2026-0103,Buckley SFB,700,50,Structural,14,57.17,2,1,14,2026-01-16 2300Z,Urgent,2,In Progress
+USSPC-FAC-2026-0104,Schriever SFB,100,10,HVAC,5,91.88,5,3,29,2026-01-03 2100Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0105,Peterson SFB,700,80,Lighting,17,59.78,2,1,17,2026-02-25 0400Z,Urgent,2,Approved
+USSPC-FAC-2026-0106,Vandenberg SFB,200,30,Plumbing,29,38.06,2,4,2,2026-02-04 1600Z,Urgent,2,Completed
+USSPC-FAC-2026-0107,Vandenberg SFB,700,50,Structural,13,81.1,3,2,22,2026-02-09 1800Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0108,Buckley SFB,100,10,HVAC,26,32.82,4,4,9,2026-02-20 0800Z,Urgent,2,In Progress
+USSPC-FAC-2026-0109,Schriever SFB,700,40,Fire Protection,13,90.01,2,2,15,2026-01-16 0700Z,Routine,3,Approved
+USSPC-FAC-2026-0110,Buckley SFB,200,60,ESS,5,83.53,2,1,24,2026-02-10 0100Z,Routine,4,Approved
+USSPC-FAC-2026-0111,Schriever SFB,100,60,ESS,2,78.33,5,2,31,2026-02-19 0100Z,Routine,3,Completed
+USSPC-FAC-2026-0112,Peterson SFB,700,10,HVAC,14,74.19,5,2,11,2026-01-20 1600Z,Preventive Maintenance,3,Approved
+USSPC-FAC-2026-0113,Vandenberg SFB,700,20,Electrical,19,63.32,4,4,7,2026-02-17 2100Z,Preventive Maintenance,3,Approved
+USSPC-FAC-2026-0114,Peterson SFB,100,70,Power Production,6,85.45,3,2,24,2026-02-17 1600Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0115,Buckley SFB,700,70,Power Production,2,86.8,5,1,33,2026-02-19 0400Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0116,Peterson SFB,100,30,Plumbing,13,86.38,1,4,17,2026-01-13 1800Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0117,Peterson SFB,700,50,Structural,2,100.0,5,2,23,2026-01-05 1100Z,Preventive Maintenance,4,In Progress
+USSPC-FAC-2026-0118,Schriever SFB,700,70,Power Production,24,41.63,5,2,9,2026-01-06 0600Z,Urgent,2,Completed
+USSPC-FAC-2026-0119,Vandenberg SFB,100,70,Power Production,24,36.24,1,1,4,2026-02-16 1600Z,Urgent,2,Completed
+USSPC-FAC-2026-0120,Peterson SFB,200,50,Structural,4,84.84,5,4,25,2026-01-27 2300Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0121,Buckley SFB,700,60,ESS,6,81.41,1,3,22,2026-01-04 1600Z,Routine,4,In Progress
+USSPC-FAC-2026-0122,Peterson SFB,100,70,Power Production,2,72.27,5,2,27,2026-02-25 0300Z,Routine,4,Approved
+USSPC-FAC-2026-0123,Peterson SFB,700,20,Electrical,10,69.79,3,2,25,2026-01-27 1600Z,Preventive Maintenance,3,Approved
+USSPC-FAC-2026-0124,Vandenberg SFB,200,70,Power Production,18,67.39,4,1,12,2026-02-14 0900Z,Routine,4,Completed
+USSPC-FAC-2026-0125,Vandenberg SFB,200,20,Electrical,18,53.83,2,3,9,2026-02-14 0000Z,Urgent,2,In Progress
+USSPC-FAC-2026-0126,Buckley SFB,200,70,Power Production,29,25.41,1,2,4,2026-02-13 0400Z,Emergency,1,Completed
+USSPC-FAC-2026-0127,Schriever SFB,100,80,Lighting,5,82.86,5,3,21,2026-02-27 1600Z,Routine,3,Completed
+USSPC-FAC-2026-0128,Schriever SFB,100,40,Fire Protection,1,97.87,3,3,33,2026-02-01 0000Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0129,Schriever SFB,700,40,Fire Protection,1,91.03,4,3,30,2026-01-20 2000Z,Routine,4,Completed
+USSPC-FAC-2026-0130,Vandenberg SFB,700,40,Fire Protection,22,30.75,5,2,12,2026-01-29 0500Z,Urgent,2,Completed
+USSPC-FAC-2026-0131,Vandenberg SFB,100,10,HVAC,9,64.66,1,2,17,2026-02-13 1500Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0132,Schriever SFB,700,50,Structural,29,9.52,5,2,2,2026-02-21 1600Z,Emergency,1,In Progress
+USSPC-FAC-2026-0133,Buckley SFB,700,30,Plumbing,3,95.44,1,1,29,2026-02-20 1400Z,Preventive Maintenance,4,In Progress
+USSPC-FAC-2026-0134,Vandenberg SFB,200,70,Power Production,25,31.13,1,1,3,2026-01-14 0600Z,Urgent,2,In Progress
+USSPC-FAC-2026-0135,Schriever SFB,100,70,Power Production,17,58.69,4,2,17,2026-02-10 1900Z,Urgent,2,Approved
+USSPC-FAC-2026-0136,Peterson SFB,200,30,Plumbing,5,88.33,3,3,24,2026-02-12 0500Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0137,Schriever SFB,200,10,HVAC,7,82.35,3,2,19,2026-01-23 0000Z,Routine,4,In Progress
+USSPC-FAC-2026-0138,Peterson SFB,100,20,Electrical,10,69.57,2,2,25,2026-02-02 0800Z,Routine,4,Completed
+USSPC-FAC-2026-0139,Peterson SFB,100,50,Structural,3,82.14,3,1,27,2026-01-03 1700Z,Routine,3,Approved
+USSPC-FAC-2026-0140,Schriever SFB,700,10,HVAC,17,61.56,1,3,12,2026-01-16 1600Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0141,Peterson SFB,700,10,HVAC,23,39.85,1,2,5,2026-01-30 0000Z,Urgent,2,In Progress
+USSPC-FAC-2026-0142,Peterson SFB,700,60,ESS,14,66.9,2,2,12,2026-02-25 0900Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0143,Schriever SFB,700,80,Lighting,5,100.0,5,2,26,2026-01-26 0800Z,Routine,4,Approved
+USSPC-FAC-2026-0144,Buckley SFB,700,80,Lighting,5,83.47,5,4,22,2026-01-20 2000Z,Preventive Maintenance,3,Approved
+USSPC-FAC-2026-0145,Buckley SFB,700,30,Plumbing,14,75.77,1,4,12,2026-02-11 2200Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0146,Vandenberg SFB,700,60,ESS,16,57.11,2,3,14,2026-02-12 2300Z,Urgent,2,Approved
+USSPC-FAC-2026-0147,Schriever SFB,700,80,Lighting,21,48.78,4,2,13,2026-01-03 0000Z,Urgent,2,In Progress
+USSPC-FAC-2026-0148,Vandenberg SFB,100,50,Structural,4,87.35,5,4,26,2026-01-03 1200Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0149,Buckley SFB,200,60,ESS,14,58.34,1,1,16,2026-02-14 0700Z,Urgent,2,In Progress
+USSPC-FAC-2026-0150,Vandenberg SFB,200,40,Fire Protection,28,32.14,1,2,3,2026-01-01 0000Z,Urgent,2,Completed
+USSPC-FAC-2026-0151,Vandenberg SFB,100,60,ESS,13,80.02,3,4,19,2026-02-08 0400Z,Routine,4,Approved
+USSPC-FAC-2026-0152,Schriever SFB,100,50,Structural,8,80.08,5,3,17,2026-01-18 1600Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0153,Buckley SFB,200,70,Power Production,3,99.2,2,4,32,2026-02-07 1500Z,Routine,3,Completed
+USSPC-FAC-2026-0154,Vandenberg SFB,200,40,Fire Protection,28,31.28,2,2,3,2026-01-23 1500Z,Urgent,2,Completed
+USSPC-FAC-2026-0155,Peterson SFB,100,70,Power Production,4,85.87,2,4,30,2026-01-05 1100Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0156,Buckley SFB,100,80,Lighting,29,27.12,4,3,0,2026-01-28 2200Z,Emergency,1,Completed
+USSPC-FAC-2026-0157,Peterson SFB,700,70,Power Production,12,73.02,1,2,14,2026-01-14 0500Z,Preventive Maintenance,3,Approved
+USSPC-FAC-2026-0158,Schriever SFB,700,70,Power Production,1,99.67,5,4,26,2026-01-08 0900Z,Routine,3,Completed
+USSPC-FAC-2026-0159,Peterson SFB,200,60,ESS,3,100.0,2,1,32,2026-02-03 1100Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0160,Vandenberg SFB,200,50,Structural,3,100.0,4,1,25,2026-01-13 1500Z,Routine,4,Completed
+USSPC-FAC-2026-0161,Buckley SFB,200,70,Power Production,21,43.78,1,4,4,2026-01-01 0500Z,Urgent,2,Completed
+USSPC-FAC-2026-0162,Buckley SFB,100,60,ESS,12,66.52,1,4,13,2026-01-24 1900Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0163,Peterson SFB,100,30,Plumbing,7,61.28,5,1,25,2026-02-08 1300Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0164,Schriever SFB,700,20,Electrical,24,55.48,2,2,11,2026-01-29 1200Z,Urgent,2,Completed
+USSPC-FAC-2026-0165,Schriever SFB,100,50,Structural,12,86.74,4,2,23,2026-01-30 1700Z,Routine,4,In Progress
+USSPC-FAC-2026-0166,Schriever SFB,700,30,Plumbing,30,23.83,2,2,0,2026-01-09 2200Z,Emergency,1,Completed
+USSPC-FAC-2026-0167,Peterson SFB,100,50,Structural,24,43.93,2,1,2,2026-02-12 1400Z,Urgent,2,In Progress
+USSPC-FAC-2026-0168,Vandenberg SFB,200,40,Fire Protection,27,29.25,3,1,3,2026-01-10 0300Z,Emergency,1,Approved
+USSPC-FAC-2026-0169,Schriever SFB,700,50,Structural,19,39.47,5,3,15,2026-03-01 0100Z,Urgent,2,Approved
+USSPC-FAC-2026-0170,Buckley SFB,700,10,HVAC,22,49.29,2,4,12,2026-02-19 1400Z,Urgent,2,Completed
+USSPC-FAC-2026-0171,Buckley SFB,200,50,Structural,1,89.2,3,1,24,2026-01-09 0600Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0172,Vandenberg SFB,100,50,Structural,15,74.26,2,1,13,2026-02-27 0600Z,Routine,3,Approved
+USSPC-FAC-2026-0173,Schriever SFB,700,30,Plumbing,26,35.87,4,4,0,2026-01-03 0300Z,Urgent,2,Approved
+USSPC-FAC-2026-0174,Schriever SFB,200,50,Structural,19,60.26,4,1,13,2026-01-27 0200Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0175,Buckley SFB,700,70,Power Production,27,38.03,4,1,3,2026-02-27 0600Z,Urgent,2,In Progress
+USSPC-FAC-2026-0176,Buckley SFB,200,80,Lighting,27,17.35,2,2,2,2026-02-09 1300Z,Emergency,1,In Progress
+USSPC-FAC-2026-0177,Vandenberg SFB,200,30,Plumbing,7,93.07,5,1,19,2026-01-30 0500Z,Routine,4,Approved
+USSPC-FAC-2026-0178,Peterson SFB,100,10,HVAC,28,36.57,1,1,2,2026-02-11 0200Z,Urgent,2,Approved
+USSPC-FAC-2026-0179,Buckley SFB,700,10,HVAC,22,36.77,2,1,7,2026-03-01 0300Z,Urgent,2,Completed
+USSPC-FAC-2026-0180,Vandenberg SFB,200,70,Power Production,29,10.97,3,4,3,2026-02-05 1000Z,Emergency,1,Completed
+USSPC-FAC-2026-0181,Peterson SFB,700,10,HVAC,26,20.7,5,3,3,2026-01-27 0100Z,Emergency,1,In Progress
+USSPC-FAC-2026-0182,Buckley SFB,100,60,ESS,27,44.4,3,3,3,2026-01-29 1200Z,Urgent,2,Approved
+USSPC-FAC-2026-0183,Vandenberg SFB,100,20,Electrical,24,32.16,2,4,6,2026-02-12 0900Z,Urgent,2,Completed
+USSPC-FAC-2026-0184,Buckley SFB,700,70,Power Production,17,53.92,3,2,8,2026-01-16 2300Z,Urgent,2,In Progress
+USSPC-FAC-2026-0185,Peterson SFB,700,60,ESS,2,98.88,1,4,25,2026-02-17 1600Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0186,Schriever SFB,100,30,Plumbing,21,43.79,5,3,5,2026-01-18 0400Z,Urgent,2,Approved
+USSPC-FAC-2026-0187,Buckley SFB,700,40,Fire Protection,18,45.69,3,3,7,2026-01-19 1200Z,Urgent,2,In Progress
+USSPC-FAC-2026-0188,Schriever SFB,700,30,Plumbing,2,96.5,3,1,29,2026-02-06 2000Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0189,Schriever SFB,100,10,HVAC,17,67.58,5,3,14,2026-01-14 2200Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0190,Schriever SFB,700,80,Lighting,18,62.29,5,2,9,2026-02-19 2300Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0191,Peterson SFB,700,40,Fire Protection,19,55.49,1,3,8,2026-01-23 1800Z,Urgent,2,Completed
+USSPC-FAC-2026-0192,Schriever SFB,700,50,Structural,9,80.04,3,1,20,2026-02-28 2100Z,Routine,3,Completed
+USSPC-FAC-2026-0193,Peterson SFB,200,70,Power Production,25,36.86,4,3,3,2026-01-24 1400Z,Urgent,2,Completed
+USSPC-FAC-2026-0194,Buckley SFB,100,30,Plumbing,24,45.88,3,3,9,2026-02-16 0400Z,Urgent,2,Completed
+USSPC-FAC-2026-0195,Schriever SFB,200,80,Lighting,12,74.93,3,2,22,2026-02-13 2300Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0196,Schriever SFB,100,50,Structural,21,58.89,4,1,4,2026-01-08 0200Z,Urgent,2,Completed
+USSPC-FAC-2026-0197,Peterson SFB,700,50,Structural,3,100.0,3,2,28,2026-02-05 1600Z,Routine,3,Approved
+USSPC-FAC-2026-0198,Schriever SFB,700,20,Electrical,22,47.4,3,2,12,2026-01-27 0900Z,Urgent,2,Approved
+USSPC-FAC-2026-0199,Schriever SFB,700,10,HVAC,20,54.07,5,3,8,2026-02-19 1100Z,Urgent,2,Approved
+USSPC-FAC-2026-0200,Vandenberg SFB,700,10,HVAC,30,19.87,5,4,3,2026-02-22 0300Z,Emergency,1,Completed
+USSPC-FAC-2026-0201,Vandenberg SFB,100,70,Power Production,9,78.79,4,1,26,2026-02-27 2200Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0202,Peterson SFB,700,10,HVAC,2,88.43,4,4,25,2026-01-26 1200Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0203,Buckley SFB,700,60,ESS,19,42.53,2,1,11,2026-01-16 0000Z,Urgent,2,Completed
+USSPC-FAC-2026-0204,Schriever SFB,100,10,HVAC,8,79.31,5,3,25,2026-01-14 2200Z,Routine,3,Completed
+USSPC-FAC-2026-0205,Buckley SFB,100,50,Structural,2,83.57,5,3,33,2026-02-07 1600Z,Routine,4,Approved
+USSPC-FAC-2026-0206,Vandenberg SFB,200,10,HVAC,2,100.0,4,2,32,2026-02-26 0000Z,Routine,3,Approved
+USSPC-FAC-2026-0207,Vandenberg SFB,200,10,HVAC,22,38.53,3,1,13,2026-01-28 1300Z,Urgent,2,Completed
+USSPC-FAC-2026-0208,Peterson SFB,100,70,Power Production,30,23.93,2,3,4,2026-01-18 0300Z,Emergency,1,Approved
+USSPC-FAC-2026-0209,Peterson SFB,200,20,Electrical,22,48.2,3,1,3,2026-01-30 0900Z,Urgent,2,In Progress
+USSPC-FAC-2026-0210,Schriever SFB,200,40,Fire Protection,17,59.32,2,3,17,2026-01-14 0900Z,Urgent,2,Completed
+USSPC-FAC-2026-0211,Schriever SFB,700,20,Electrical,9,74.28,3,4,26,2026-01-09 1900Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0212,Peterson SFB,100,20,Electrical,30,38.5,3,1,1,2026-01-16 2200Z,Urgent,2,In Progress
+USSPC-FAC-2026-0213,Buckley SFB,100,20,Electrical,10,83.34,2,1,24,2026-01-24 1900Z,Routine,4,Approved
+USSPC-FAC-2026-0214,Buckley SFB,700,70,Power Production,3,100.0,1,1,22,2026-02-12 0100Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0215,Peterson SFB,200,10,HVAC,24,51.59,5,3,4,2026-02-25 1900Z,Urgent,2,Completed
+USSPC-FAC-2026-0216,Vandenberg SFB,700,40,Fire Protection,1,80.52,5,4,25,2026-01-24 0000Z,Routine,4,In Progress
+USSPC-FAC-2026-0217,Peterson SFB,200,60,ESS,28,34.68,3,3,0,2026-02-11 0400Z,Urgent,2,Completed
+USSPC-FAC-2026-0218,Peterson SFB,700,50,Structural,5,95.66,4,1,27,2026-01-26 2100Z,Routine,3,Approved
+USSPC-FAC-2026-0219,Vandenberg SFB,200,30,Plumbing,18,61.67,1,4,10,2026-01-24 1400Z,Routine,4,Completed
+USSPC-FAC-2026-0220,Schriever SFB,200,30,Plumbing,25,46.81,2,2,5,2026-03-01 1800Z,Urgent,2,In Progress
+USSPC-FAC-2026-0221,Schriever SFB,100,70,Power Production,3,100.0,1,1,23,2026-01-29 0600Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0222,Buckley SFB,100,10,HVAC,14,62.85,3,1,20,2026-02-02 2300Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0223,Schriever SFB,100,30,Plumbing,28,24.94,1,2,2,2026-02-19 0000Z,Emergency,1,Completed
+USSPC-FAC-2026-0224,Vandenberg SFB,700,80,Lighting,16,72.44,5,2,10,2026-02-08 1700Z,Routine,3,Approved
+USSPC-FAC-2026-0225,Buckley SFB,100,50,Structural,29,14.64,4,4,4,2026-02-15 1300Z,Emergency,1,Approved
+USSPC-FAC-2026-0226,Buckley SFB,100,60,ESS,7,91.66,5,2,21,2026-01-10 2300Z,Routine,3,Completed
+USSPC-FAC-2026-0227,Schriever SFB,100,60,ESS,8,69.84,4,1,22,2026-02-27 0200Z,Preventive Maintenance,4,In Progress
+USSPC-FAC-2026-0228,Vandenberg SFB,700,40,Fire Protection,9,78.11,4,2,17,2026-02-24 1100Z,Routine,3,Completed
+USSPC-FAC-2026-0229,Buckley SFB,100,60,ESS,1,76.89,4,3,26,2026-02-18 1700Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0230,Schriever SFB,100,30,Plumbing,13,55.26,4,1,13,2026-02-28 1900Z,Urgent,2,Completed
+USSPC-FAC-2026-0231,Buckley SFB,700,50,Structural,11,58.09,3,1,21,2026-01-03 1900Z,Urgent,2,Completed
+USSPC-FAC-2026-0232,Peterson SFB,200,20,Electrical,26,38.28,1,4,5,2026-03-01 0500Z,Urgent,2,Approved
+USSPC-FAC-2026-0233,Vandenberg SFB,200,30,Plumbing,2,81.85,1,4,27,2026-01-01 1600Z,Preventive Maintenance,4,In Progress
+USSPC-FAC-2026-0234,Schriever SFB,200,40,Fire Protection,2,92.64,4,1,27,2026-01-11 1400Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0235,Schriever SFB,700,50,Structural,26,34.16,4,2,2,2026-02-18 1600Z,Urgent,2,In Progress
+USSPC-FAC-2026-0236,Peterson SFB,700,70,Power Production,19,41.43,3,1,11,2026-01-24 1800Z,Urgent,2,Approved
+USSPC-FAC-2026-0237,Peterson SFB,200,50,Structural,19,52.38,2,2,12,2026-01-26 1200Z,Urgent,2,In Progress
+USSPC-FAC-2026-0238,Schriever SFB,100,30,Plumbing,10,91.47,4,2,18,2026-01-12 0400Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0239,Peterson SFB,700,60,ESS,14,71.42,3,1,18,2026-02-13 2300Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0240,Vandenberg SFB,700,70,Power Production,12,75.23,4,2,23,2026-02-16 1200Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0241,Vandenberg SFB,700,30,Plumbing,12,70.7,2,1,19,2026-02-28 1000Z,Routine,4,Completed
+USSPC-FAC-2026-0242,Schriever SFB,700,10,HVAC,11,81.0,3,3,17,2026-01-10 1000Z,Routine,3,Approved
+USSPC-FAC-2026-0243,Schriever SFB,100,80,Lighting,30,27.07,1,4,2,2026-02-23 1000Z,Emergency,1,Approved
+USSPC-FAC-2026-0244,Vandenberg SFB,700,40,Fire Protection,25,23.97,1,2,4,2026-02-19 1300Z,Emergency,1,Completed
+USSPC-FAC-2026-0245,Buckley SFB,200,50,Structural,15,63.19,2,2,20,2026-01-20 0400Z,Routine,3,In Progress
+USSPC-FAC-2026-0246,Vandenberg SFB,100,70,Power Production,20,55.93,5,2,15,2026-02-20 1800Z,Urgent,2,In Progress
+USSPC-FAC-2026-0247,Peterson SFB,100,60,ESS,21,44.29,4,2,9,2026-02-08 1900Z,Urgent,2,In Progress
+USSPC-FAC-2026-0248,Vandenberg SFB,200,80,Lighting,25,44.12,4,4,9,2026-02-23 1600Z,Urgent,2,In Progress
+USSPC-FAC-2026-0249,Buckley SFB,200,20,Electrical,20,38.48,4,2,14,2026-01-16 0400Z,Urgent,2,Approved
+USSPC-FAC-2026-0250,Schriever SFB,100,80,Lighting,22,31.28,4,1,9,2026-01-08 0100Z,Urgent,2,Approved
+USSPC-FAC-2026-0251,Peterson SFB,200,20,Electrical,25,30.96,1,2,3,2026-02-14 0100Z,Urgent,2,Completed
+USSPC-FAC-2026-0252,Peterson SFB,200,10,HVAC,28,33.96,3,1,0,2026-02-19 0800Z,Urgent,2,Completed
+USSPC-FAC-2026-0253,Peterson SFB,200,20,Electrical,18,79.02,2,1,16,2026-01-07 0700Z,Routine,4,Completed
+USSPC-FAC-2026-0254,Peterson SFB,700,60,ESS,26,42.62,4,4,4,2026-01-20 1700Z,Urgent,2,Completed
+USSPC-FAC-2026-0255,Vandenberg SFB,700,20,Electrical,22,30.3,1,2,4,2026-02-21 0500Z,Urgent,2,In Progress
+USSPC-FAC-2026-0256,Schriever SFB,100,40,Fire Protection,20,39.54,3,2,5,2026-02-27 1700Z,Urgent,2,Approved
+USSPC-FAC-2026-0257,Schriever SFB,200,20,Electrical,26,46.86,4,4,9,2026-02-17 1400Z,Urgent,2,Completed
+USSPC-FAC-2026-0258,Vandenberg SFB,200,80,Lighting,25,33.72,2,2,6,2026-02-14 2100Z,Urgent,2,Completed
+USSPC-FAC-2026-0259,Peterson SFB,700,40,Fire Protection,5,100.0,5,2,24,2026-01-13 0900Z,Routine,4,Completed
+USSPC-FAC-2026-0260,Buckley SFB,700,80,Lighting,29,32.0,4,3,0,2026-02-04 1600Z,Urgent,2,In Progress
+USSPC-FAC-2026-0261,Buckley SFB,200,20,Electrical,17,87.5,4,3,17,2026-01-22 1300Z,Routine,3,Approved
+USSPC-FAC-2026-0262,Schriever SFB,100,30,Plumbing,22,48.91,4,2,9,2026-01-19 0700Z,Urgent,2,Approved
+USSPC-FAC-2026-0263,Buckley SFB,100,60,ESS,17,50.28,1,2,9,2026-01-17 0400Z,Urgent,2,Approved
+USSPC-FAC-2026-0264,Peterson SFB,100,20,Electrical,9,59.98,3,4,16,2026-02-09 0300Z,Urgent,2,Approved
+USSPC-FAC-2026-0265,Buckley SFB,700,10,HVAC,24,49.05,4,2,6,2026-02-21 2100Z,Urgent,2,Approved
+USSPC-FAC-2026-0266,Vandenberg SFB,100,50,Structural,23,47.62,2,4,12,2026-02-02 0400Z,Urgent,2,Completed
+USSPC-FAC-2026-0267,Schriever SFB,700,20,Electrical,20,44.31,4,1,5,2026-02-12 1200Z,Urgent,2,In Progress
+USSPC-FAC-2026-0268,Buckley SFB,100,80,Lighting,15,70.04,2,4,10,2026-02-03 1400Z,Preventive Maintenance,3,Approved
+USSPC-FAC-2026-0269,Buckley SFB,100,60,ESS,11,67.77,3,3,16,2026-02-15 2000Z,Routine,4,Completed
+USSPC-FAC-2026-0270,Schriever SFB,200,10,HVAC,12,61.63,5,1,21,2026-02-24 0700Z,Routine,4,Approved
+USSPC-FAC-2026-0271,Schriever SFB,700,50,Structural,19,63.25,1,2,6,2026-01-28 0900Z,Routine,3,Approved
+USSPC-FAC-2026-0272,Schriever SFB,100,60,ESS,3,86.66,4,3,31,2026-01-26 2100Z,Routine,4,Approved
+USSPC-FAC-2026-0273,Peterson SFB,700,70,Power Production,4,98.18,2,4,31,2026-01-09 0700Z,Routine,4,Approved
+USSPC-FAC-2026-0274,Schriever SFB,100,30,Plumbing,27,33.58,5,3,3,2026-01-02 0100Z,Urgent,2,In Progress
+USSPC-FAC-2026-0275,Buckley SFB,200,30,Plumbing,16,72.8,4,3,17,2026-02-09 1100Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0276,Buckley SFB,200,20,Electrical,1,93.76,2,4,32,2026-01-04 0500Z,Routine,3,Approved
+USSPC-FAC-2026-0277,Buckley SFB,200,60,ESS,14,76.57,2,4,17,2026-01-30 1700Z,Preventive Maintenance,4,In Progress
+USSPC-FAC-2026-0278,Peterson SFB,100,60,ESS,2,83.31,5,2,25,2026-01-02 1800Z,Routine,4,In Progress
+USSPC-FAC-2026-0279,Schriever SFB,700,30,Plumbing,22,36.74,1,4,13,2026-02-09 1500Z,Urgent,2,Approved
+USSPC-FAC-2026-0280,Vandenberg SFB,200,30,Plumbing,4,88.43,2,4,26,2026-02-21 0000Z,Routine,4,Completed
+USSPC-FAC-2026-0281,Buckley SFB,100,50,Structural,1,97.87,1,4,34,2026-01-20 2300Z,Preventive Maintenance,3,Approved
+USSPC-FAC-2026-0282,Schriever SFB,200,50,Structural,3,100.0,3,4,30,2026-02-07 1000Z,Routine,4,In Progress
+USSPC-FAC-2026-0283,Peterson SFB,100,60,ESS,4,88.94,5,1,27,2026-02-22 1900Z,Routine,4,Approved
+USSPC-FAC-2026-0284,Buckley SFB,100,60,ESS,13,72.6,1,4,14,2026-02-24 2000Z,Routine,3,In Progress
+USSPC-FAC-2026-0285,Schriever SFB,700,10,HVAC,17,74.17,5,1,10,2026-01-22 0300Z,Routine,4,Approved
+USSPC-FAC-2026-0286,Vandenberg SFB,700,70,Power Production,16,69.74,2,4,17,2026-02-04 1100Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0287,Schriever SFB,700,20,Electrical,1,100.0,5,3,31,2026-01-17 2200Z,Routine,3,Approved
+USSPC-FAC-2026-0288,Vandenberg SFB,100,60,ESS,29,25.62,5,4,0,2026-02-18 1000Z,Emergency,1,Approved
+USSPC-FAC-2026-0289,Vandenberg SFB,100,40,Fire Protection,16,42.71,4,3,13,2026-02-10 1900Z,Urgent,2,Approved
+USSPC-FAC-2026-0290,Buckley SFB,200,70,Power Production,2,100.0,2,2,27,2026-02-02 0600Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0291,Buckley SFB,100,40,Fire Protection,16,60.53,2,4,12,2026-02-12 1100Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0292,Vandenberg SFB,200,30,Plumbing,19,62.13,2,1,6,2026-01-21 1200Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0293,Schriever SFB,200,20,Electrical,25,34.21,1,2,2,2026-02-15 1200Z,Urgent,2,Completed
+USSPC-FAC-2026-0294,Buckley SFB,200,40,Fire Protection,9,80.93,4,1,20,2026-02-24 1900Z,Routine,4,Approved
+USSPC-FAC-2026-0295,Vandenberg SFB,700,70,Power Production,2,100.0,3,1,26,2026-01-03 1800Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0296,Buckley SFB,200,70,Power Production,19,69.93,4,3,8,2026-02-15 2300Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0297,Peterson SFB,100,20,Electrical,27,26.58,2,1,0,2026-02-04 1300Z,Emergency,1,In Progress
+USSPC-FAC-2026-0298,Peterson SFB,700,40,Fire Protection,12,79.88,4,2,22,2026-01-04 0200Z,Routine,4,Completed
+USSPC-FAC-2026-0299,Schriever SFB,100,40,Fire Protection,1,100.0,1,1,25,2026-01-10 1000Z,Preventive Maintenance,3,Approved
+USSPC-FAC-2026-0300,Buckley SFB,200,80,Lighting,26,32.92,4,4,6,2026-01-02 0600Z,Urgent,2,In Progress
+USSPC-FAC-2026-0301,Peterson SFB,200,20,Electrical,29,36.2,4,3,5,2026-02-12 0200Z,Urgent,2,In Progress
+USSPC-FAC-2026-0302,Vandenberg SFB,200,40,Fire Protection,28,35.74,2,2,0,2026-02-19 1100Z,Urgent,2,Completed
+USSPC-FAC-2026-0303,Peterson SFB,200,50,Structural,12,58.78,3,3,18,2026-01-04 1200Z,Urgent,2,In Progress
+USSPC-FAC-2026-0304,Schriever SFB,700,30,Plumbing,10,68.28,3,3,23,2026-01-13 0400Z,Routine,4,Approved
+USSPC-FAC-2026-0305,Schriever SFB,100,80,Lighting,18,60.97,4,2,14,2026-02-10 0800Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0306,Vandenberg SFB,200,30,Plumbing,21,49.15,4,4,9,2026-02-01 2100Z,Urgent,2,Approved
+USSPC-FAC-2026-0307,Vandenberg SFB,200,10,HVAC,11,85.8,1,2,18,2026-01-08 0100Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0308,Buckley SFB,100,60,ESS,15,67.93,3,1,20,2026-01-27 1300Z,Routine,3,In Progress
+USSPC-FAC-2026-0309,Buckley SFB,700,80,Lighting,23,40.39,3,3,7,2026-01-04 0200Z,Urgent,2,Completed
+USSPC-FAC-2026-0310,Peterson SFB,200,40,Fire Protection,6,84.18,1,2,29,2026-02-17 0500Z,Preventive Maintenance,4,In Progress
+USSPC-FAC-2026-0311,Buckley SFB,100,40,Fire Protection,15,79.89,1,3,16,2026-01-23 2000Z,Routine,4,In Progress
+USSPC-FAC-2026-0312,Peterson SFB,200,80,Lighting,13,61.35,2,4,13,2026-02-22 0000Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0313,Buckley SFB,100,10,HVAC,8,77.56,2,1,17,2026-02-08 1800Z,Routine,3,Completed
+USSPC-FAC-2026-0314,Schriever SFB,700,70,Power Production,21,43.83,3,1,5,2026-02-24 0700Z,Urgent,2,Completed
+USSPC-FAC-2026-0315,Schriever SFB,100,30,Plumbing,21,60.37,1,4,4,2026-01-04 0700Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0316,Schriever SFB,700,10,HVAC,11,67.88,1,2,22,2026-01-22 0200Z,Routine,4,Approved
+USSPC-FAC-2026-0317,Buckley SFB,700,60,ESS,10,85.89,3,3,15,2026-01-23 0100Z,Routine,3,Completed
+USSPC-FAC-2026-0318,Peterson SFB,700,40,Fire Protection,9,75.07,4,4,21,2026-02-24 1900Z,Preventive Maintenance,4,In Progress
+USSPC-FAC-2026-0319,Buckley SFB,200,30,Plumbing,22,56.86,3,1,8,2026-02-11 1600Z,Urgent,2,Completed
+USSPC-FAC-2026-0320,Schriever SFB,100,80,Lighting,17,63.22,5,2,18,2026-02-05 0000Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0321,Peterson SFB,700,80,Lighting,3,100.0,3,4,32,2026-02-01 2000Z,Routine,4,In Progress
+USSPC-FAC-2026-0322,Peterson SFB,200,40,Fire Protection,13,64.18,2,4,17,2026-02-16 0300Z,Routine,4,Completed
+USSPC-FAC-2026-0323,Schriever SFB,100,30,Plumbing,3,100.0,3,2,32,2026-01-09 0700Z,Preventive Maintenance,4,In Progress
+USSPC-FAC-2026-0324,Schriever SFB,200,80,Lighting,23,36.67,3,1,4,2026-02-08 1500Z,Urgent,2,Approved
+USSPC-FAC-2026-0325,Buckley SFB,100,80,Lighting,13,67.62,4,2,13,2026-02-07 0700Z,Routine,3,Approved
+USSPC-FAC-2026-0326,Vandenberg SFB,100,60,ESS,24,54.02,5,1,3,2026-01-31 2100Z,Urgent,2,In Progress
+USSPC-FAC-2026-0327,Schriever SFB,100,40,Fire Protection,7,80.64,5,3,21,2026-01-13 0500Z,Preventive Maintenance,4,In Progress
+USSPC-FAC-2026-0328,Peterson SFB,100,70,Power Production,19,67.72,5,2,6,2026-01-24 0300Z,Preventive Maintenance,3,Approved
+USSPC-FAC-2026-0329,Buckley SFB,700,30,Plumbing,18,62.3,3,2,11,2026-02-23 1100Z,Routine,3,Approved
+USSPC-FAC-2026-0330,Peterson SFB,700,60,ESS,15,51.62,3,4,12,2026-02-20 0600Z,Urgent,2,Approved
+USSPC-FAC-2026-0331,Peterson SFB,700,60,ESS,10,52.46,1,1,19,2026-02-28 0400Z,Urgent,2,In Progress
+USSPC-FAC-2026-0332,Schriever SFB,100,10,HVAC,28,38.59,4,2,4,2026-02-05 1500Z,Urgent,2,In Progress
+USSPC-FAC-2026-0333,Buckley SFB,200,40,Fire Protection,5,89.65,5,2,25,2026-01-01 1200Z,Preventive Maintenance,4,In Progress
+USSPC-FAC-2026-0334,Schriever SFB,100,40,Fire Protection,5,94.4,1,3,20,2026-01-20 1200Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0335,Buckley SFB,200,20,Electrical,11,68.83,2,4,23,2026-02-17 1000Z,Routine,3,Completed
+USSPC-FAC-2026-0336,Buckley SFB,200,30,Plumbing,4,79.83,5,4,27,2026-02-24 2200Z,Routine,4,Completed
+USSPC-FAC-2026-0337,Peterson SFB,200,70,Power Production,17,72.61,4,2,8,2026-01-24 1500Z,Routine,3,Completed
+USSPC-FAC-2026-0338,Vandenberg SFB,700,50,Structural,2,80.23,2,4,30,2026-02-07 2100Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0339,Peterson SFB,200,50,Structural,28,33.41,5,4,0,2026-03-02 2100Z,Urgent,2,Approved
+USSPC-FAC-2026-0340,Peterson SFB,200,40,Fire Protection,10,75.05,3,1,15,2026-02-09 1000Z,Routine,3,In Progress
+USSPC-FAC-2026-0341,Buckley SFB,700,30,Plumbing,2,93.11,3,2,25,2026-01-13 0500Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0342,Buckley SFB,200,70,Power Production,14,73.67,1,3,21,2026-02-02 0500Z,Routine,4,In Progress
+USSPC-FAC-2026-0343,Peterson SFB,200,50,Structural,17,56.96,5,3,14,2026-02-09 1400Z,Urgent,2,Completed
+USSPC-FAC-2026-0344,Buckley SFB,100,60,ESS,2,78.51,5,2,29,2026-02-21 0100Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0345,Buckley SFB,100,20,Electrical,3,85.74,2,1,32,2026-01-21 2100Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0346,Vandenberg SFB,200,20,Electrical,21,34.15,4,3,13,2026-02-03 1900Z,Urgent,2,Approved
+USSPC-FAC-2026-0347,Buckley SFB,200,70,Power Production,21,57.11,3,4,9,2026-02-04 0900Z,Urgent,2,Approved
+USSPC-FAC-2026-0348,Buckley SFB,700,30,Plumbing,9,68.62,3,3,22,2026-01-18 1700Z,Routine,3,Completed
+USSPC-FAC-2026-0349,Vandenberg SFB,200,80,Lighting,13,74.68,3,1,18,2026-01-08 0000Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0350,Peterson SFB,100,20,Electrical,2,100.0,2,3,29,2026-01-31 1900Z,Preventive Maintenance,4,In Progress
+USSPC-FAC-2026-0351,Schriever SFB,100,20,Electrical,23,27.94,3,4,8,2026-02-13 1400Z,Emergency,1,Completed
+USSPC-FAC-2026-0352,Vandenberg SFB,100,40,Fire Protection,15,57.87,2,3,15,2026-01-02 1100Z,Urgent,2,Completed
+USSPC-FAC-2026-0353,Buckley SFB,700,60,ESS,12,95.33,4,3,23,2026-01-07 2100Z,Preventive Maintenance,3,Approved
+USSPC-FAC-2026-0354,Vandenberg SFB,700,10,HVAC,1,100.0,2,1,26,2026-02-18 0300Z,Routine,4,Completed
+USSPC-FAC-2026-0355,Schriever SFB,100,40,Fire Protection,4,78.24,4,3,26,2026-01-16 1100Z,Preventive Maintenance,3,Approved
+USSPC-FAC-2026-0356,Peterson SFB,200,70,Power Production,5,83.22,5,2,21,2026-02-03 2200Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0357,Schriever SFB,700,20,Electrical,3,68.61,1,3,22,2026-03-02 2200Z,Preventive Maintenance,4,In Progress
+USSPC-FAC-2026-0358,Schriever SFB,100,10,HVAC,15,77.7,4,1,19,2026-02-15 1500Z,Routine,3,In Progress
+USSPC-FAC-2026-0359,Buckley SFB,100,20,Electrical,15,52.71,2,4,17,2026-02-25 1900Z,Urgent,2,In Progress
+USSPC-FAC-2026-0360,Vandenberg SFB,200,20,Electrical,21,40.38,5,3,13,2026-02-16 0300Z,Urgent,2,In Progress
+USSPC-FAC-2026-0361,Vandenberg SFB,100,40,Fire Protection,30,17.44,3,2,0,2026-02-01 0000Z,Emergency,1,Completed
+USSPC-FAC-2026-0362,Vandenberg SFB,100,50,Structural,20,36.14,3,3,11,2026-02-14 0200Z,Urgent,2,Approved
+USSPC-FAC-2026-0363,Peterson SFB,100,50,Structural,21,63.97,5,2,7,2026-01-15 0400Z,Preventive Maintenance,3,Approved
+USSPC-FAC-2026-0364,Peterson SFB,100,70,Power Production,8,68.64,2,3,23,2026-01-08 0800Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0365,Schriever SFB,200,30,Plumbing,8,87.08,4,2,24,2026-01-27 1400Z,Preventive Maintenance,4,In Progress
+USSPC-FAC-2026-0366,Schriever SFB,700,50,Structural,22,26.09,3,1,3,2026-02-06 0500Z,Emergency,1,In Progress
+USSPC-FAC-2026-0367,Schriever SFB,700,40,Fire Protection,8,67.22,2,3,25,2026-02-24 0800Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0368,Buckley SFB,700,60,ESS,26,32.77,4,1,6,2026-01-02 1400Z,Urgent,2,Completed
+USSPC-FAC-2026-0369,Peterson SFB,100,20,Electrical,12,75.79,2,4,21,2026-02-06 0900Z,Preventive Maintenance,3,Approved
+USSPC-FAC-2026-0370,Buckley SFB,700,80,Lighting,30,12.15,1,2,5,2026-02-14 1500Z,Emergency,1,In Progress
+USSPC-FAC-2026-0371,Peterson SFB,700,20,Electrical,8,90.9,2,3,20,2026-01-15 1700Z,Routine,3,In Progress
+USSPC-FAC-2026-0372,Schriever SFB,200,20,Electrical,22,42.66,4,1,13,2026-02-20 1700Z,Urgent,2,In Progress
+USSPC-FAC-2026-0373,Buckley SFB,200,60,ESS,2,98.03,1,2,27,2026-01-12 1600Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0374,Vandenberg SFB,700,20,Electrical,21,45.73,4,3,7,2026-01-12 2300Z,Urgent,2,Approved
+USSPC-FAC-2026-0375,Vandenberg SFB,200,20,Electrical,13,52.13,4,2,19,2026-02-02 0600Z,Urgent,2,Approved
+USSPC-FAC-2026-0376,Peterson SFB,100,40,Fire Protection,13,84.05,1,1,15,2026-01-06 2000Z,Routine,3,Approved
+USSPC-FAC-2026-0377,Schriever SFB,700,50,Structural,16,76.14,2,2,18,2026-02-21 2200Z,Preventive Maintenance,4,In Progress
+USSPC-FAC-2026-0378,Schriever SFB,100,70,Power Production,29,30.44,2,2,0,2026-02-07 0500Z,Urgent,2,In Progress
+USSPC-FAC-2026-0379,Vandenberg SFB,700,70,Power Production,13,61.09,2,3,14,2026-01-31 0800Z,Routine,3,Approved
+USSPC-FAC-2026-0380,Schriever SFB,700,70,Power Production,9,78.07,1,4,21,2026-02-02 0900Z,Routine,3,In Progress
+USSPC-FAC-2026-0381,Buckley SFB,700,80,Lighting,22,33.79,1,2,3,2026-02-14 2200Z,Urgent,2,Approved
+USSPC-FAC-2026-0382,Peterson SFB,700,80,Lighting,16,55.62,3,2,19,2026-02-20 1300Z,Urgent,2,Completed
+USSPC-FAC-2026-0383,Buckley SFB,200,10,HVAC,5,100.0,5,2,27,2026-01-24 0300Z,Routine,3,Completed
+USSPC-FAC-2026-0384,Schriever SFB,100,70,Power Production,15,50.99,5,1,12,2026-01-29 0000Z,Urgent,2,In Progress
+USSPC-FAC-2026-0385,Schriever SFB,100,10,HVAC,8,74.09,5,1,26,2026-02-03 0000Z,Routine,3,Approved
+USSPC-FAC-2026-0386,Peterson SFB,200,50,Structural,23,15.54,4,1,7,2026-02-07 1600Z,Emergency,1,Approved
+USSPC-FAC-2026-0387,Peterson SFB,100,60,ESS,20,40.2,1,2,11,2026-01-28 1600Z,Urgent,2,In Progress
+USSPC-FAC-2026-0388,Vandenberg SFB,700,60,ESS,16,54.11,2,1,9,2026-01-27 0100Z,Urgent,2,Approved
+USSPC-FAC-2026-0389,Peterson SFB,100,70,Power Production,18,55.58,3,4,11,2026-02-15 1500Z,Urgent,2,Completed
+USSPC-FAC-2026-0390,Buckley SFB,700,70,Power Production,11,68.42,2,2,21,2026-02-09 0700Z,Routine,4,Completed
+USSPC-FAC-2026-0391,Vandenberg SFB,700,80,Lighting,4,100.0,1,4,27,2026-02-26 0600Z,Routine,4,Approved
+USSPC-FAC-2026-0392,Schriever SFB,700,60,ESS,24,32.26,5,3,7,2026-01-14 1800Z,Urgent,2,Approved
+USSPC-FAC-2026-0393,Peterson SFB,100,20,Electrical,3,100.0,1,4,27,2026-01-18 1200Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0394,Vandenberg SFB,100,10,HVAC,19,57.32,5,3,14,2026-02-07 1400Z,Urgent,2,Completed
+USSPC-FAC-2026-0395,Schriever SFB,100,30,Plumbing,21,45.43,2,2,9,2026-01-02 1900Z,Urgent,2,Approved
+USSPC-FAC-2026-0396,Buckley SFB,700,10,HVAC,24,30.65,3,2,9,2026-02-08 0200Z,Urgent,2,In Progress
+USSPC-FAC-2026-0397,Vandenberg SFB,700,60,ESS,1,91.29,5,1,25,2026-02-18 1100Z,Routine,3,Completed
+USSPC-FAC-2026-0398,Vandenberg SFB,700,30,Plumbing,28,45.11,2,1,2,2026-02-05 1100Z,Urgent,2,In Progress
+USSPC-FAC-2026-0399,Peterson SFB,100,50,Structural,24,32.91,1,4,2,2026-01-28 2300Z,Urgent,2,Completed
+USSPC-FAC-2026-0400,Schriever SFB,700,40,Fire Protection,1,97.58,5,4,25,2026-02-19 1500Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0401,Schriever SFB,200,30,Plumbing,9,91.88,1,3,21,2026-01-23 1800Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0402,Peterson SFB,100,60,ESS,23,53.81,5,2,3,2026-02-01 0500Z,Urgent,2,In Progress
+USSPC-FAC-2026-0403,Schriever SFB,700,60,ESS,12,67.76,3,3,14,2026-02-17 0300Z,Preventive Maintenance,3,Approved
+USSPC-FAC-2026-0404,Buckley SFB,700,40,Fire Protection,9,84.51,2,2,25,2026-01-09 0800Z,Routine,4,In Progress
+USSPC-FAC-2026-0405,Buckley SFB,200,70,Power Production,7,84.68,2,1,27,2026-02-22 0500Z,Routine,3,In Progress
+USSPC-FAC-2026-0406,Schriever SFB,700,10,HVAC,30,21.81,3,1,0,2026-01-26 2200Z,Emergency,1,In Progress
+USSPC-FAC-2026-0407,Schriever SFB,200,40,Fire Protection,27,26.5,5,3,0,2026-01-24 1200Z,Emergency,1,Completed
+USSPC-FAC-2026-0408,Vandenberg SFB,200,80,Lighting,23,45.82,3,1,2,2026-01-06 1700Z,Urgent,2,Completed
+USSPC-FAC-2026-0409,Vandenberg SFB,100,80,Lighting,13,67.13,3,4,14,2026-01-20 0400Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0410,Vandenberg SFB,700,60,ESS,20,43.23,1,4,7,2026-01-29 0000Z,Urgent,2,In Progress
+USSPC-FAC-2026-0411,Peterson SFB,200,10,HVAC,3,86.97,4,1,30,2026-02-28 1900Z,Routine,3,In Progress
+USSPC-FAC-2026-0412,Vandenberg SFB,700,20,Electrical,5,99.58,2,1,28,2026-01-29 0300Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0413,Peterson SFB,200,10,HVAC,15,64.25,1,1,18,2026-01-29 0300Z,Routine,4,Completed
+USSPC-FAC-2026-0414,Schriever SFB,700,30,Plumbing,22,67.24,3,3,6,2026-01-11 0700Z,Preventive Maintenance,4,In Progress
+USSPC-FAC-2026-0415,Schriever SFB,700,80,Lighting,19,34.57,2,1,8,2026-01-03 2200Z,Urgent,2,Completed
+USSPC-FAC-2026-0416,Buckley SFB,200,40,Fire Protection,27,50.29,2,3,4,2026-01-19 0000Z,Urgent,2,In Progress
+USSPC-FAC-2026-0417,Peterson SFB,700,10,HVAC,18,49.44,1,4,12,2026-01-19 0100Z,Urgent,2,Approved
+USSPC-FAC-2026-0418,Vandenberg SFB,100,30,Plumbing,15,58.33,3,3,15,2026-01-17 1300Z,Urgent,2,In Progress
+USSPC-FAC-2026-0419,Peterson SFB,100,60,ESS,18,58.46,4,3,7,2026-02-22 0400Z,Urgent,2,In Progress
+USSPC-FAC-2026-0420,Schriever SFB,700,80,Lighting,4,95.32,2,1,25,2026-01-03 0100Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0421,Schriever SFB,700,30,Plumbing,19,50.87,3,1,8,2026-02-21 1500Z,Urgent,2,Completed
+USSPC-FAC-2026-0422,Buckley SFB,200,20,Electrical,13,64.8,4,3,22,2026-01-05 2100Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0423,Vandenberg SFB,700,20,Electrical,16,46.9,3,4,11,2026-02-19 0400Z,Urgent,2,Completed
+USSPC-FAC-2026-0424,Vandenberg SFB,100,10,HVAC,20,36.55,5,1,7,2026-01-22 2300Z,Urgent,2,Approved
+USSPC-FAC-2026-0425,Vandenberg SFB,200,20,Electrical,15,52.82,3,1,18,2026-02-27 0600Z,Urgent,2,In Progress
+USSPC-FAC-2026-0426,Peterson SFB,100,20,Electrical,4,91.37,3,4,25,2026-02-13 1100Z,Routine,3,Approved
+USSPC-FAC-2026-0427,Vandenberg SFB,700,10,HVAC,12,67.76,4,1,14,2026-01-12 0800Z,Preventive Maintenance,3,Approved
+USSPC-FAC-2026-0428,Peterson SFB,100,60,ESS,7,70.13,2,3,24,2026-02-13 2100Z,Preventive Maintenance,3,Approved
+USSPC-FAC-2026-0429,Peterson SFB,700,60,ESS,15,79.92,5,2,12,2026-01-20 0000Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0430,Schriever SFB,100,20,Electrical,7,68.44,2,2,22,2026-01-21 0900Z,Routine,3,In Progress
+USSPC-FAC-2026-0431,Vandenberg SFB,100,10,HVAC,9,77.36,5,2,19,2026-01-09 1200Z,Preventive Maintenance,3,Approved
+USSPC-FAC-2026-0432,Vandenberg SFB,200,40,Fire Protection,13,73.1,4,4,14,2026-02-02 1700Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0433,Vandenberg SFB,100,70,Power Production,15,53.17,3,1,14,2026-01-04 0800Z,Urgent,2,In Progress
+USSPC-FAC-2026-0434,Schriever SFB,100,80,Lighting,22,41.2,4,3,9,2026-01-01 0900Z,Urgent,2,Completed
+USSPC-FAC-2026-0435,Schriever SFB,100,60,ESS,3,100.0,1,4,32,2026-02-19 2200Z,Routine,4,In Progress
+USSPC-FAC-2026-0436,Schriever SFB,700,80,Lighting,5,70.44,5,1,20,2026-02-14 0900Z,Routine,4,Approved
+USSPC-FAC-2026-0437,Buckley SFB,200,80,Lighting,2,84.46,1,1,28,2026-01-02 0800Z,Routine,3,Approved
+USSPC-FAC-2026-0438,Schriever SFB,700,70,Power Production,17,50.55,2,3,14,2026-02-10 1600Z,Urgent,2,Approved
+USSPC-FAC-2026-0439,Schriever SFB,200,10,HVAC,16,59.87,3,3,15,2026-01-18 0800Z,Urgent,2,Completed
+USSPC-FAC-2026-0440,Schriever SFB,700,20,Electrical,10,80.32,5,3,23,2026-02-12 0200Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0441,Schriever SFB,100,40,Fire Protection,29,22.4,2,1,4,2026-02-01 0800Z,Emergency,1,In Progress
+USSPC-FAC-2026-0442,Buckley SFB,700,30,Plumbing,11,64.93,3,1,19,2026-01-02 0800Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0443,Buckley SFB,100,30,Plumbing,18,64.48,5,3,8,2026-01-22 0100Z,Routine,3,In Progress
+USSPC-FAC-2026-0444,Buckley SFB,200,30,Plumbing,12,62.25,1,3,23,2026-02-15 1900Z,Preventive Maintenance,4,In Progress
+USSPC-FAC-2026-0445,Buckley SFB,200,10,HVAC,30,33.97,3,3,0,2026-01-03 1200Z,Urgent,2,Completed
+USSPC-FAC-2026-0446,Peterson SFB,700,40,Fire Protection,26,31.58,1,4,7,2026-01-01 2000Z,Urgent,2,In Progress
+USSPC-FAC-2026-0447,Buckley SFB,700,20,Electrical,28,42.96,1,1,0,2026-02-19 0700Z,Urgent,2,Completed
+USSPC-FAC-2026-0448,Peterson SFB,700,50,Structural,26,48.99,2,3,6,2026-02-26 1600Z,Urgent,2,Approved
+USSPC-FAC-2026-0449,Vandenberg SFB,700,50,Structural,23,22.96,2,2,6,2026-02-01 0700Z,Emergency,1,Completed
+USSPC-FAC-2026-0450,Peterson SFB,700,20,Electrical,18,56.25,5,1,8,2026-01-20 1900Z,Urgent,2,In Progress
+USSPC-FAC-2026-0451,Vandenberg SFB,200,50,Structural,27,24.8,5,3,6,2026-01-11 0000Z,Emergency,1,Approved
+USSPC-FAC-2026-0452,Schriever SFB,200,50,Structural,22,61.86,3,2,6,2026-01-29 1500Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0453,Vandenberg SFB,100,60,ESS,25,45.1,4,3,8,2026-02-10 1400Z,Urgent,2,Completed
+USSPC-FAC-2026-0454,Vandenberg SFB,100,30,Plumbing,5,89.6,4,3,29,2026-02-10 2200Z,Routine,4,Approved
+USSPC-FAC-2026-0455,Schriever SFB,700,50,Structural,20,43.91,4,2,14,2026-01-30 2200Z,Urgent,2,Approved
+USSPC-FAC-2026-0456,Peterson SFB,700,40,Fire Protection,19,50.28,1,2,11,2026-02-05 0600Z,Urgent,2,Approved
+USSPC-FAC-2026-0457,Schriever SFB,100,70,Power Production,10,62.71,2,2,19,2026-02-06 2100Z,Routine,3,In Progress
+USSPC-FAC-2026-0458,Peterson SFB,700,10,HVAC,6,93.26,3,3,29,2026-02-21 1600Z,Routine,4,In Progress
+USSPC-FAC-2026-0459,Schriever SFB,700,30,Plumbing,27,18.9,4,4,0,2026-01-10 0400Z,Emergency,1,Approved
+USSPC-FAC-2026-0460,Peterson SFB,100,80,Lighting,13,65.24,4,1,18,2026-01-13 0600Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0461,Schriever SFB,200,80,Lighting,20,46.97,2,2,15,2026-02-08 2300Z,Urgent,2,Approved
+USSPC-FAC-2026-0462,Schriever SFB,700,10,HVAC,5,82.78,2,2,24,2026-01-17 0200Z,Preventive Maintenance,4,Approved
+USSPC-FAC-2026-0463,Schriever SFB,100,10,HVAC,27,47.37,1,3,3,2026-01-09 2100Z,Urgent,2,Approved
+USSPC-FAC-2026-0464,Schriever SFB,700,40,Fire Protection,23,48.77,4,2,6,2026-01-04 2200Z,Urgent,2,In Progress
+USSPC-FAC-2026-0465,Schriever SFB,700,10,HVAC,28,36.41,4,2,1,2026-02-08 1900Z,Urgent,2,Approved
+USSPC-FAC-2026-0466,Buckley SFB,700,10,HVAC,20,34.17,5,1,9,2026-01-17 1300Z,Urgent,2,Completed
+USSPC-FAC-2026-0467,Buckley SFB,100,20,Electrical,10,80.94,1,2,23,2026-02-11 1400Z,Routine,4,In Progress
+USSPC-FAC-2026-0468,Buckley SFB,100,60,ESS,9,70.11,2,1,19,2026-01-12 1000Z,Preventive Maintenance,4,In Progress
+USSPC-FAC-2026-0469,Schriever SFB,200,20,Electrical,28,49.93,3,3,5,2026-02-20 2200Z,Urgent,2,Approved
+USSPC-FAC-2026-0470,Buckley SFB,200,70,Power Production,18,67.01,2,1,7,2026-02-26 1400Z,Routine,4,Approved
+USSPC-FAC-2026-0471,Buckley SFB,100,70,Power Production,12,83.27,2,4,20,2026-02-17 1700Z,Routine,3,In Progress
+USSPC-FAC-2026-0472,Buckley SFB,200,80,Lighting,26,48.4,3,2,0,2026-01-08 0000Z,Urgent,2,Completed
+USSPC-FAC-2026-0473,Peterson SFB,200,20,Electrical,3,89.87,4,1,24,2026-02-04 0400Z,Routine,4,Approved
+USSPC-FAC-2026-0474,Schriever SFB,100,10,HVAC,4,96.8,5,4,25,2026-01-31 0100Z,Routine,4,In Progress
+USSPC-FAC-2026-0475,Peterson SFB,200,60,ESS,7,79.51,1,4,22,2026-02-17 0800Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0476,Buckley SFB,200,10,HVAC,12,58.53,2,3,20,2026-02-16 1100Z,Urgent,2,In Progress
+USSPC-FAC-2026-0477,Buckley SFB,200,40,Fire Protection,26,36.53,4,2,3,2026-02-11 1600Z,Urgent,2,In Progress
+USSPC-FAC-2026-0478,Schriever SFB,200,60,ESS,17,56.7,3,1,9,2026-01-16 2300Z,Urgent,2,Completed
+USSPC-FAC-2026-0479,Schriever SFB,200,10,HVAC,8,98.21,4,1,23,2026-02-26 0600Z,Routine,3,Approved
+USSPC-FAC-2026-0480,Buckley SFB,100,60,ESS,28,61.66,2,3,6,2026-02-23 0600Z,Preventive Maintenance,3,Approved
+USSPC-FAC-2026-0481,Schriever SFB,100,70,Power Production,28,25.82,4,3,5,2026-01-31 1600Z,Emergency,1,Completed
+USSPC-FAC-2026-0482,Peterson SFB,700,60,ESS,5,95.27,1,2,20,2026-01-17 2000Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0483,Peterson SFB,200,20,Electrical,26,26.06,2,3,8,2026-02-01 1800Z,Emergency,1,In Progress
+USSPC-FAC-2026-0484,Peterson SFB,700,60,ESS,24,46.07,3,4,1,2026-01-04 0900Z,Urgent,2,In Progress
+USSPC-FAC-2026-0485,Vandenberg SFB,100,10,HVAC,17,55.09,1,4,16,2026-01-06 2000Z,Urgent,2,In Progress
+USSPC-FAC-2026-0486,Buckley SFB,200,10,HVAC,29,45.62,2,4,0,2026-01-05 1400Z,Urgent,2,Completed
+USSPC-FAC-2026-0487,Peterson SFB,700,50,Structural,16,70.64,2,2,12,2026-02-06 1100Z,Preventive Maintenance,3,Completed
+USSPC-FAC-2026-0488,Vandenberg SFB,200,30,Plumbing,16,57.12,4,3,13,2026-02-24 0500Z,Urgent,2,Completed
+USSPC-FAC-2026-0489,Schriever SFB,200,80,Lighting,11,80.04,1,3,16,2026-01-28 1900Z,Preventive Maintenance,4,Completed
+USSPC-FAC-2026-0490,Vandenberg SFB,200,50,Structural,7,77.0,4,1,22,2026-01-22 1800Z,Routine,3,Completed
+USSPC-FAC-2026-0491,Peterson SFB,700,70,Power Production,26,31.31,4,1,3,2026-02-27 1600Z,Urgent,2,Approved
+USSPC-FAC-2026-0492,Vandenberg SFB,700,40,Fire Protection,28,30.56,5,2,5,2026-02-16 0900Z,Urgent,2,Approved
+USSPC-FAC-2026-0493,Peterson SFB,200,50,Structural,15,77.79,2,1,15,2026-01-13 1200Z,Routine,4,Approved
+USSPC-FAC-2026-0494,Peterson SFB,700,20,Electrical,9,70.4,1,2,22,2026-02-25 0300Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0495,Schriever SFB,100,80,Lighting,4,100.0,2,1,26,2026-01-20 0200Z,Routine,3,In Progress
+USSPC-FAC-2026-0496,Schriever SFB,200,20,Electrical,7,96.7,5,2,22,2026-01-08 2300Z,Preventive Maintenance,3,In Progress
+USSPC-FAC-2026-0497,Vandenberg SFB,700,10,HVAC,29,36.78,2,1,5,2026-01-22 0700Z,Urgent,2,Approved
+USSPC-FAC-2026-0498,Vandenberg SFB,100,40,Fire Protection,13,45.45,5,3,21,2026-01-20 1300Z,Urgent,2,In Progress
+USSPC-FAC-2026-0499,Vandenberg SFB,700,40,Fire Protection,29,18.87,3,4,3,2026-02-15 2200Z,Emergency,1,Completed
+USSPC-FAC-2026-0500,Buckley SFB,700,20,Electrical,4,97.96,5,2,24,2026-02-11 2000Z,Preventive Maintenance,3,Completed
