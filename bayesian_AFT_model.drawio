@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="Page-1" id="WYbRznTuvM-1KG04qF1p">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6k8TRL5pe4t5XE-6ocAw-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#000000);" value="&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Hazard Function h(t) =&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; text-align: start;&quot;&gt;(α/β) * (t/β)^(α-1)&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; text-align: start; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;font&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; text-align: start;&quot;&gt;β = exp(η)&lt;/span&gt;&lt;br style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; text-align: start;&quot;&gt;&lt;span style=&quot;font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; text-align: start;&quot;&gt;η = Intercept + Σ(βi * Xi)&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; text-align: start; background-color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0)); background-color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="275" x="288" as="geometry" />
+        </mxCell>
+        <mxCell id="6k8TRL5pe4t5XE-6ocAw-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Data Ingestion" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6k8TRL5pe4t5XE-6ocAw-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="139.05" as="sourcePoint" />
+            <mxPoint x="260" y="140.9590909090909" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6k8TRL5pe4t5XE-6ocAw-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Merge asset condition indices with historical work orders. Assets without failure events are flagged as &#39;Censored&#39;, ensuring the model accounts for infrastructure still in service." vertex="1">
+          <mxGeometry height="80" width="540" x="260" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6k8TRL5pe4t5XE-6ocAw-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.355;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530.85" y="202.39999999999998" as="sourcePoint" />
+            <mxPoint x="529.15" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6k8TRL5pe4t5XE-6ocAw-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Data Engineering" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="6k8TRL5pe4t5XE-6ocAw-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="260" as="sourcePoint" />
+            <mxPoint x="260" y="261.9090909090909" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6k8TRL5pe4t5XE-6ocAw-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Z-Score standardization for continuous features. This handles variables of different magnitudes (years vs percentages) so that no single factor dominates the Bayesian calculation by scale alone." vertex="1">
+          <mxGeometry height="80" width="540" x="260" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="6k8TRL5pe4t5XE-6ocAw-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.355;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530.85" y="320" as="sourcePoint" />
+            <mxPoint x="529.15" y="357.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZ8nOocg90WcONrICoo1-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Bayesian Priors" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="AZ8nOocg90WcONrICoo1-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Normal distributions with small sigma (0.5) are used to regularize the model, preventing extreme predictions and ensuring it learns a typical bell-curve influence for each feature." vertex="1">
+          <mxGeometry height="80" width="540" x="260" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="AZ8nOocg90WcONrICoo1-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="379.05" as="sourcePoint" />
+            <mxPoint x="260" y="380.9590909090909" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZ8nOocg90WcONrICoo1-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Weibull" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="AZ8nOocg90WcONrICoo1-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="The core likelihood step. Uses the Alpha (Shape) parameter to detect &#39;Wear-out&#39; failure patterns&amp;nbsp; &amp;nbsp; &amp;nbsp; (α &amp;gt; 1). Connects η (linear predictor) to β (time-to-failure scale) via an exponential link" vertex="1">
+          <mxGeometry height="80" width="540" x="260" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="AZ8nOocg90WcONrICoo1-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="499.04999999999995" as="sourcePoint" />
+            <mxPoint x="260" y="500.95909090909095" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZ8nOocg90WcONrICoo1-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.355;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530.85" y="440" as="sourcePoint" />
+            <mxPoint x="529.15" y="477.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZ8nOocg90WcONrICoo1-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Risk Calculation" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="AZ8nOocg90WcONrICoo1-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;nbsp;Transforms Predicted Time-to-Failure (years) into an instantaneous Hazard Score (1/μ). Assets are then sorted by hazard score to generate the global risk ranking." vertex="1">
+          <mxGeometry height="80" width="540" x="260" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="AZ8nOocg90WcONrICoo1-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="739.05" as="sourcePoint" />
+            <mxPoint x="260" y="740.959090909091" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZ8nOocg90WcONrICoo1-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.355;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530.85" y="560" as="sourcePoint" />
+            <mxPoint x="529.15" y="597.5999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oYlJY1q3z8058ByLadpT-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MCMC" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="oYlJY1q3z8058ByLadpT-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Explore the posterior distribution. Chains must reach convergence (R-hat &amp;lt; 1.01) to be considered a stable assessment of risk." vertex="1">
+          <mxGeometry height="80" width="540" x="260" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="oYlJY1q3z8058ByLadpT-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="619.05" as="sourcePoint" />
+            <mxPoint x="260" y="620.959090909091" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oYlJY1q3z8058ByLadpT-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.355;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530.85" y="682.4" as="sourcePoint" />
+            <mxPoint x="529.15" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
