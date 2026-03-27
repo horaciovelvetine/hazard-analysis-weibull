@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-03-26T22:15:33.340852",
+  "description": "Generated for Weibull/Hazard Analysis module prototyping lalysis Mar 26",
+  "generation_method": "installations",
+  "target_count": 10,
+  "output_format": "csv",
+  "layout": "normalized",
+  "include_time_series": false,
+  "counts": {
+    "installations": 10,
+    "facilities": 103,
+    "systems": 2007,
+    "work_orders": 23281
+  },
+  "record_counts": {
+    "installations": 10,
+    "facilities": 103,
+    "systems": 2007,
+    "work_orders": 23281,
+    "facility_time_series": 0,
+    "system_time_series": 0
+  }
+}

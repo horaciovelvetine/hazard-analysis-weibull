@@ -14,43 +14,29 @@ shows the analysis as a clean sequence of stages:
 
 try:
     # Package-style imports let this file run from the repository root.
-    from breakout.diagnostics import print_posterior_summary, print_rhat_check
-    from breakout.load_data import load_data
-    from breakout.model import build_hazard_model
-    from breakout.plots import save_posterior_plots
-    from breakout.preprocessing import prepare_hazard_data
-    from breakout.risk import build_risk_output
-    from breakout.sampling import sample_model
+    from breakout.scorer import BayesianWeibullScorer
 except ImportError:
     # Local imports make it possible to run the file directly from inside the
     # `breakout/` directory as a standalone script.
-    from diagnostics import print_posterior_summary, print_rhat_check
-    from load_data import load_data
-    from model import build_hazard_model
-    from plots import save_posterior_plots
-    from preprocessing import prepare_hazard_data
-    from risk import build_risk_output
-    from sampling import sample_model
+    from scorer import BayesianWeibullScorer
 
 
-def run_pipeline():
-    """Execute the same ordered analysis flow as the original script."""
+def run_pipeline(
+    hazard_data_path: str = "midas/midas_hazard_analysis_data.csv",
+    work_orders_path: str = "midas/sample-work-orders.csv",
+    output_path: str = "risk_scores.csv",
+    plots_path: str = "posterior_plots.png",
+):
+    """Execute the ordered legacy workflow through the reusable scorer API."""
 
-    hazard_data, _work_orders = load_data()
-    # Preprocessing turns the raw table into both readable derived columns and
-    # model-ready arrays.
-    prepared = prepare_hazard_data(hazard_data)
-    hazard_model = build_hazard_model(prepared)
-    trace = sample_model(hazard_model)
-
-    # These post-sampling steps explain the model fit and turn it into outputs
-    # that analysts can inspect and act on.
-    print_posterior_summary(trace)
-    print_rhat_check(trace)
-    save_posterior_plots(trace)
-    build_risk_output(prepared.hazard_data, trace)
-
-    return trace
+    scorer = BayesianWeibullScorer()
+    result = scorer.fit_from_paths(
+        hazard_data_path=hazard_data_path,
+        work_orders_path=work_orders_path,
+        output_path=output_path,
+        plots_path=plots_path,
+    )
+    return result.trace
 
 
 if __name__ == "__main__":
