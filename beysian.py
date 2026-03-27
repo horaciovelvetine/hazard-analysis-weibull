@@ -37,8 +37,6 @@ Censoring: we don't know exactly when something will fail — only that it hasn'
 LLM was used to write the comments, structure of the code, and write the excel sheet output section.
 """
 
-
-
 import os
 import pandas as pd
 import numpy as np
@@ -50,14 +48,11 @@ import pytensor.tensor as pt
 # ─────────────────────────────────────────
 # 1. LOAD DATA
 # ─────────────────────────────────────────
-hazard_data = pd.read_csv('midas/midas_hazard_analysis_data.csv')
-work_orders = pd.read_csv(
-    "midas/CE_Work_Orders_200_20260210_180007(CE Work Orders).csv",
-    encoding="cp1252"
-)
+hazard_data = pd.read_csv("midas/midas_hazard_analysis_data.csv")
+work_orders = pd.read_csv("midas/sample-work-orders.csv", encoding="cp1252")
 
-#print(f"Hazard data rows : {len(hazard_data)}")
-#print(f"Work order rows  : {len(work_orders)}\n")
+# print(f"Hazard data rows : {len(hazard_data)}")
+# print(f"Work order rows  : {len(work_orders)}\n")
 
 # ─────────────────────────────────────────
 # 2. DATA PREPARATION
@@ -81,44 +76,55 @@ Hierarchical indexes: Trade and Installation are converted to integer indexes
 so PyMC can group assets and learn shared patterns within each group.
 """
 
+
 # Z-score standardization of continuous features
 def standardize(series):
+    # std() is a pandas Series method that calculates the standard deviation of the values in the series.
     return (series - series.mean()) / series.std()
 
+
 # Time-to-failure: Remaining Service Life (years)
-hazard_data["time"]  = hazard_data["Remaining Service Life"].clip(lower=0.5)
+# The clip function limits the values in an array or series to a specified range.
+# Here, any values in "Remaining Service Life" less than 0.5 are set to 0.5 (to avoid issues like log(0) later).
+hazard_data["time"] = hazard_data["Remaining Service Life"].clip(lower=0.5)
 
 # Event indicator: 1 = failure observed (Emergency/Urgent), 0 = censored
 # whether an asset has actually failed or not
-hazard_data["event"] = hazard_data["Work Category"].isin(["Emergency", "Urgent"]).astype(int)
+hazard_data["event"] = (
+    hazard_data["Work Category"].isin(["Emergency", "Urgent"]).astype(int)
+)
 
 print(f"Total records : {len(hazard_data)}")
-print(f"Failure events: {hazard_data['event'].sum()} ({hazard_data['event'].mean()*100:.1f}%)")
+print(
+    f"Failure events: {hazard_data['event'].sum()} ({hazard_data['event'].mean()*100:.1f}%)"
+)
 print(f"Censored      : {(hazard_data['event']==0).sum()}\n")
 
 # Standardize continuous features
-hazard_data["age_z"]  = standardize(hazard_data["Age"])
-hazard_data["ci_z"]   = standardize(hazard_data["Condition Index"])
-hazard_data["rsl_z"]  = standardize(hazard_data["Remaining Service Life"])
+# A "Series" is a 1-dimensional labeled array capable of holding any data type.
+# In pandas, hazard_data["Age"] is a Series containing the "Age" column.
+hazard_data["age_z"] = standardize(hazard_data["Age"])
+hazard_data["ci_z"] = standardize(hazard_data["Condition Index"])
+hazard_data["rsl_z"] = standardize(hazard_data["Remaining Service Life"])
 hazard_data["crit_z"] = standardize(hazard_data["Mission Criticality"])
-hazard_data["res_z"]  = standardize(hazard_data["Resiliency Grade"])
+hazard_data["res_z"] = standardize(hazard_data["Resiliency Grade"])
 
 # Hierarchical indexes
-trade_idx,   trades        = pd.factorize(hazard_data["Trade"])
+trade_idx, trades = pd.factorize(hazard_data["Trade"])
 install_idx, installations = pd.factorize(hazard_data["Installation"])
-n_trades   = len(trades)
+n_trades = len(trades)
 n_installs = len(installations)
 
 print(f"Trades       : {list(trades)}")
 print(f"Installations: {list(installations)}\n")
 
 # Arrays for PyMC
-t_obs  = hazard_data["time"].values.astype(float)
-event  = hazard_data["event"].values.astype(int)
-age_z  = hazard_data["age_z"].values
-ci_z   = hazard_data["ci_z"].values
+t_obs = hazard_data["time"].values.astype(float)
+event = hazard_data["event"].values.astype(int)
+age_z = hazard_data["age_z"].values
+ci_z = hazard_data["ci_z"].values
 crit_z = hazard_data["crit_z"].values
-res_z  = hazard_data["res_z"].values
+res_z = hazard_data["res_z"].values
 
 # ─────────────────────────────────────────
 # 3. BAYESIAN WEIBULL HAZARD MODEL (PyMC)
@@ -160,42 +166,47 @@ with pm.Model() as hazard_model:
     alpha = pm.Gamma("alpha", alpha=2, beta=1)
 
     # ── Fixed-effect priors
-    # no past knowledge → mean=0, small std=0.5 to regularize 
-    # assumeing the data follows a typical bell curve distribution
-    intercept = pm.Normal("intercept", mu=3,  sigma=1) # 20 years → log(20) ~ 3
-    b_age     = pm.Normal("b_age",     mu=0,  sigma=0.5)
-    b_ci      = pm.Normal("b_ci",      mu=0,  sigma=0.5)
-    b_crit    = pm.Normal("b_crit",    mu=0,  sigma=0.5)
-    b_res     = pm.Normal("b_res",     mu=0,  sigma=0.5)
+    # no past knowledge → mean=0, small std=0.5 to regularize
+    # assume the data follows a typical bell curve distribution
+    intercept = pm.Normal("intercept", mu=3, sigma=1)  # 20 years → log(20) ~ 3
+    b_age = pm.Normal("b_age", mu=0, sigma=0.5)
+    b_ci = pm.Normal("b_ci", mu=0, sigma=0.5)
+    b_crit = pm.Normal("b_crit", mu=0, sigma=0.5)
+    b_res = pm.Normal("b_res", mu=0, sigma=0.5)
 
     # ── Hierarchical: Trade-level random intercepts
-    mu_trade    = pm.Normal("mu_trade",       mu=0, sigma=0.5)
-    sigma_trade = pm.HalfNormal("sigma_trade",      sigma=0.3)
-    b_trade     = pm.Normal("b_trade", mu=mu_trade, sigma=sigma_trade, shape=n_trades)
+    mu_trade = pm.Normal("mu_trade", mu=0, sigma=0.5)
+    sigma_trade = pm.HalfNormal("sigma_trade", sigma=0.3)
+    b_trade = pm.Normal("b_trade", mu=mu_trade, sigma=sigma_trade, shape=n_trades)
 
     # ── Hierarchical: Installation-level random intercepts
-    mu_install    = pm.Normal("mu_install",         mu=0, sigma=0.5)
-    sigma_install = pm.HalfNormal("sigma_install",        sigma=0.3)
-    b_install     = pm.Normal("b_install", mu=mu_install, sigma=sigma_install, shape=n_installs)
+    mu_install = pm.Normal("mu_install", mu=0, sigma=0.5)
+    sigma_install = pm.HalfNormal("sigma_install", sigma=0.3)
+    b_install = pm.Normal(
+        "b_install", mu=mu_install, sigma=sigma_install, shape=n_installs
+    )
 
     # ── Linear predictor → Weibull scale
-    eta = (intercept
-           + b_age   * age_z
-           + b_ci    * ci_z
-           + b_crit  * crit_z
-           + b_res   * res_z
-           + b_trade[trade_idx]
-           + b_install[install_idx])
+    # eta is the linear predictor for the (log) expected failure time.
+    # It summarizes the effects of all predictors (fixed effects and random/hierarchical effects)
+    # for each asset, before transformation by exp().
+    eta = (
+        intercept
+        + b_age * age_z              # effect of normalized asset age
+        + b_ci * ci_z                # effect of normalized condition index
+        + b_crit * crit_z            # effect of mission criticality (normalized)
+        + b_res * res_z              # effect of resiliency grade (normalized)
+        + b_trade[trade_idx]         # random effect for asset's trade
+        + b_install[install_idx]     # random effect for asset's installation
+    )
 
     mu = pm.Deterministic("mu", pm.math.exp(eta))
 
     # ── Likelihood with censoring
     def weibull_logp(t, alpha, scale, event):
-        beta    = scale / pt.exp(pt.gammaln(1 + 1 / alpha))
-        log_sf  = -((t / beta) ** alpha)
-        log_pdf = (pt.log(alpha) - pt.log(beta)
-                   + (alpha - 1) * pt.log(t / beta)
-                   + log_sf)
+        beta = scale / pt.exp(pt.gammaln(1 + 1 / alpha))
+        log_sf = -((t / beta) ** alpha)
+        log_pdf = pt.log(alpha) - pt.log(beta) + (alpha - 1) * pt.log(t / beta) + log_sf
         return event * log_pdf + (1 - event) * log_sf
 
     obs = pm.Potential("obs", weibull_logp(t_obs, alpha, mu, event))
@@ -260,19 +271,21 @@ R-hat Check:
 """
 
 print("\n── Posterior Summary ──")
-summary = az.summary(trace, var_names=["alpha", "intercept", "b_age", "b_ci", "b_crit", "b_res"])
+summary = az.summary(
+    trace, var_names=["alpha", "intercept", "b_age", "b_ci", "b_crit", "b_res"]
+)
 print(summary)
 
 print("\n── R-hat check ──")
 rhat = az.rhat(trace)
 for var in ["alpha", "b_age", "b_ci", "b_crit", "b_res"]:
-    val    = float(rhat[var].values)
+    val = float(rhat[var].values)
     status = "✅" if val < 1.01 else "⚠️  RERUN"
     print(f"  {var:12s}: r-hat = {val:.4f}  {status}")
 
 # ─────────────────────────────────────────
 # 6. PLOTS
-''''
+"""
 Visualizes the posterior distributions for the key model parameters.
 
 Each plot shows the full probability distribution of a coefficient
@@ -292,7 +305,7 @@ b_ci:   If the distribution is mostly negative it confirms lower
 b_crit: Shows how much Mission Criticality shifts the failure rate.
 
 Saved to posterior_plots.png in the Space folder.
-'''
+"""
 # ─────────────────────────────────────────
 fig, axes = plt.subplots(2, 2, figsize=(12, 8))
 fig.suptitle("Bayesian Weibull Hazard Model — Posterior Distributions", fontsize=14)
@@ -357,19 +370,25 @@ Results saved to risk_scores.csv in the Space folder.
 mu_posterior_mean = trace.posterior["mu"].mean(dim=["chain", "draw"]).values
 
 hazard_data["predicted_ttf"] = mu_posterior_mean
-hazard_data["hazard_score"]  = 1 / mu_posterior_mean
-hazard_data["risk_rank"]     = hazard_data["hazard_score"].rank(ascending=False).astype(int)
+hazard_data["hazard_score"] = 1 / mu_posterior_mean
+hazard_data["risk_rank"] = hazard_data["hazard_score"].rank(ascending=False).astype(int)
 
-risk_output = hazard_data[[
-    "Work Order #", "Installation", "Trade", "Age",
-    "Condition Index", "Remaining Service Life",
-    "Mission Criticality", "predicted_ttf",
-    "hazard_score", "risk_rank"
-]].sort_values("risk_rank")
+risk_output = hazard_data[
+    [
+        "Work Order #",
+        "Installation",
+        "Trade",
+        "Age",
+        "Condition Index",
+        "Remaining Service Life",
+        "Mission Criticality",
+        "predicted_ttf",
+        "hazard_score",
+        "risk_rank",
+    ]
+].sort_values("risk_rank")
 
 risk_output.to_csv("risk_scores.csv", index=False)
 print("\nTop 10 highest-risk assets:")
 print(risk_output.head(10).to_string(index=False))
 print("\nSaved: risk_scores.csv")
-
-
