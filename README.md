@@ -8,6 +8,25 @@ The core question the model answers: **"Given what we know about an asset's age,
 
 ---
 
+## Repository Status
+
+This repository now has two documentation and implementation layers:
+
+- `beysian.py` remains the original single-script reference implementation and is still useful for understanding the legacy Weibull AFT formulation.
+- `breakout/` is the current reusable integration surface. It contains the canonical MIDAS schemas, target semantics, normalized-export adapter, validation helpers, reusable scorer, and the parallel trajectory-engine scaffold.
+
+For current integration details, use:
+
+- `breakout/README.md` for the implemented scorer, adapter, validation, and engine interfaces
+- `midas_hazard_integration_plan.md` for the broader MIDAS integration roadmap and remaining design choices
+
+## MIDAS Integration Snapshot
+
+- The current sample MIDAS export in `midas/breakout-midas-data/` can now support a baseline system-level hazard scorer through the `breakout/` package.
+- The sample export does not include runtime time series, so it is not enough yet for trajectory-based hazard forecasting in `ParallelHazardEngine`.
+- The normalized sample currently populates `priority` but leaves `work_category` empty, so the MIDAS baseline path uses a first-critical-work-order target rather than the legacy Emergency/Urgent category proxy.
+- The sample data is still synthetic MIDAS output, so it is useful for interface testing and integration work, not final calibration.
+
 ## Datasets
 
 ### `midas/midas_hazard_analysis_data.csv` (501 records)
@@ -33,6 +52,18 @@ The primary analytical dataset. Each row represents a work order tied to a facil
 ### `midas/sample-work-orders.csv` (201 records)
 
 A detailed work order log with rich textual context: problem descriptions, requested actions, mission impact statements, and technician completion notes. Covers the same installations and trades as the hazard data. Loaded at [`beysian.py` L52](beysian.py#L52).
+
+### `midas/breakout-midas-data/`
+
+A normalized MIDAS sample export bundle used by the current `breakout/` integration work. It contains:
+
+- `*_installations.csv`
+- `*_facilities.csv`
+- `*_systems.csv`
+- `*_work_orders.csv`
+- `*_metadata.json`
+
+The current sample covers 10 installations and is intended for adapter, schema, and target-validation work rather than final model calibration.
 
 ---
 
@@ -360,7 +391,8 @@ For all plots, **wider distributions = more uncertainty**, **narrower = more con
 
 ## Known Issues
 
-1. `rsl_z` (standardized Remaining Service Life) is computed on [line 108](beysian.py#L108) but never used in the model — it can be removed.
-2. `work_orders` is loaded on [line 52](beysian.py#L52) but is not used anywhere in the current pipeline.
-3. `beysian.py` runs the full workflow at module scope, so importing it will also load data, sample the model, and write output files. Adding a main guard would make it safer to reuse.
-4. [`pyproject.toml`](pyproject.toml) declares `dependencies = []`, but the code imports `pandas`, `numpy`, `pymc`, `arviz`, `matplotlib`, and `pytensor`.
+1. `beysian.py` is still a legacy script with module-scope execution; `breakout/` is the better surface for ongoing MIDAS integration work.
+2. The legacy workflow still depends on `Remaining Service Life`, while the current MIDAS sample bundle does not include that field.
+3. The sample normalized MIDAS export does not include runtime time series, so the trajectory-engine path is still blocked on additional MIDAS exports.
+4. Exposure factors for weather, use, location, major events, and maintenance recovery still do not have a live MIDAS export source.
+5. The current MIDAS sample data is synthetic, so any fitted results should be treated as pipeline-validation output rather than calibrated decision support.
